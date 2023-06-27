@@ -16,7 +16,6 @@ class MenuViewController: UIViewController {
     var userName: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        debugPrint("username\(userName)")
         nameUserLabel.text = userName
         // Do any additional setup after loading the view.
     }
